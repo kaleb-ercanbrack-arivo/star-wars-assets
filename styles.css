@@ -8,7 +8,7 @@ h2 {
 }
 
 
-li.no-bullets { 
+ul.no-bullets li { 
     list-style-type: none;
 
 }
