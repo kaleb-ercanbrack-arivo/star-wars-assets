@@ -34,7 +34,7 @@ h1 {
     ;
 }
 
-h2 {
+p{
     font-size: 13pt;
     color: #c1d4e8;
 }
@@ -83,3 +83,7 @@ input {
     
 }
 
+#search_input {
+    color:#c1d4e8;
+
+}
