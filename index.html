@@ -4,7 +4,7 @@
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
     <link rel="stylesheet" href="/styles.css">
-    <script src="script.js"></script>
+    <script type="module" src="script.js"></script>
 </head>
 
 <body>
@@ -15,40 +15,8 @@
 
                 <h1>Star Wars Assests!</h1>
                     <p> Find out who has the most capital and IP royalties!</p>
-                <input type="text" id="search_input" style="width:400px"; name="search_input" placeholder="Search by name" />
-                <ul class="no-bullets">
-                    <li> Luke Skywalker
-                        <ul class="items">
-                            <li> 2 Vehicle</li>
-                            <li> 2 Starships</li>
-                            <li> 4 Films</li>
-
-                        </ul>
-
-                    </li>
-                    <li> Darth Vader
-                        <ul class="items">
-                            <li> 2 Vehicles</li>
-                            <li> 2 Starships</li>
-
-                        </ul>
-
-                    </li>
-
-                    <li> Leia Organa
-                        <ul class="items">
-                            <li> 2 Vehicles</li>
-                            <li> 2 Starships</li>
-
-                        </ul>
-
-                    </li>
-                </ul>
-            </section>
-
-
-            <section>
-
+                <input type="text" id="search_input" data-search style="width:400px"; name="search_input" placeholder="Search by name"/>
+                <ul id="list" class="no-bullets"></ul>
             </section>
         </article>
 
